@@ -6,7 +6,7 @@ export default function Todolist(props){
     <>
       <li>
         {props.item}
-        <button onClick={props.deleteListItem(props.index)}>-</button>
+        <button onClick={() => props.deleteListItem(props.index)}>-</button>
       </li>
     </>
   )
